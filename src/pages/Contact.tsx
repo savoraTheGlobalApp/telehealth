@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Support",
-      details: ["contact@globalcare.com", "support@globalcare.com"],
+      details: ["contact@sapienshealth.com", "support@sapienshealth.com"],
       description: "Get in touch via email for general inquiries and support"
     },
     {

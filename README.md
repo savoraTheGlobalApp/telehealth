@@ -1,4 +1,4 @@
-# GlobalCare - Cross-Border Telehealth Platform
+# Sapiens Health - Cross-Border Telehealth Platform
 
 A modern, comprehensive telehealth platform that connects patients with world-class healthcare professionals across borders. The platform provides cross-border online consultations and medical tourism services.
 
@@ -222,7 +222,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and inquiries:
-- **Email**: contact@globalcare.com
+- **Email**: contact@sapienshealth.com
 - **Phone**: +1 (555) 123-4567
 - **Live Chat**: Available on the website
 
@@ -243,4 +243,4 @@ For support and inquiries:
 
 ---
 
-**Disclaimer**: GlobalCare provides consultation services and medical opinions only. We do not provide prescriptions or replace in-person medical care. For emergencies, please contact your local emergency services immediately. 
+**Disclaimer**: Sapiens Health provides consultation services and medical opinions only. We do not provide prescriptions or replace in-person medical care. For emergencies, please contact your local emergency services immediately. 
