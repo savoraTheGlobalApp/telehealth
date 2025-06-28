@@ -20,15 +20,15 @@ const Footer: React.FC = () => {
               Your health, our priority.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
+              <button className="text-gray-400 hover:text-primary-400 transition-colors">
                 <Globe size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-primary-400 transition-colors">
                 <Shield size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-primary-400 transition-colors">
                 <Heart size={20} />
-              </a>
+              </button>
             </div>
           </div>
 
@@ -74,14 +74,14 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary-400 transition-colors">
+                <button className="hover:text-primary-400 transition-colors">
                   Privacy Policy
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="hover:text-primary-400 transition-colors">
+                <button className="hover:text-primary-400 transition-colors">
                   Terms of Service
-                </a>
+                </button>
               </li>
             </ul>
           </div>
