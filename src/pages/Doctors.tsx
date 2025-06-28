@@ -2,17 +2,12 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Search, 
-  Filter, 
   Star, 
-  MessageCircle, 
-  Video, 
-  Phone, 
   MapPin, 
-  Calendar,
-  Clock,
-  Award,
-  Users,
-  CheckCircle
+  Award, 
+  Users, 
+  CheckCircle, 
+  Clock 
 } from 'lucide-react';
 
 const Doctors: React.FC = () => {

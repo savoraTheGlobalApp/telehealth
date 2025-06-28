@@ -8,12 +8,9 @@ import {
   Users, 
   MessageCircle, 
   Video, 
-  Phone, 
   ArrowRight,
   CheckCircle,
-  Star,
-  Heart,
-  Award
+  Star
 } from 'lucide-react';
 
 const Home: React.FC = () => {

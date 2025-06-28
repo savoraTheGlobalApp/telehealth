@@ -8,7 +8,6 @@ import {
   DollarSign, 
   Star, 
   CheckCircle, 
-  ArrowRight,
   MapPin,
   Calendar,
   Users,

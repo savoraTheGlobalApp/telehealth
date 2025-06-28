@@ -7,10 +7,7 @@ import {
   Users, 
   Award, 
   CheckCircle, 
-  ArrowRight,
-  Star,
-  Clock,
-  MapPin
+  Clock
 } from 'lucide-react';
 
 const About: React.FC = () => {

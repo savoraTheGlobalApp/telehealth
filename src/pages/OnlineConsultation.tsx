@@ -9,7 +9,6 @@ import {
   Shield, 
   Globe, 
   CheckCircle, 
-  ArrowRight,
   Star,
   User,
   Calendar,
