@@ -107,7 +107,7 @@ const Home: React.FC = () => {
                 <Link to="/online-consultation" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                   Get Consultation
                 </Link>
-                <Link to="/medical-tourism" className="btn-secondary text-white border-white hover:bg-white hover:text-primary-600">
+                <Link to="/medical-tourism" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                   Medical Tourism
                 </Link>
               </div>

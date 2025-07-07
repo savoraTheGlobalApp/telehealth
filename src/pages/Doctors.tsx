@@ -460,7 +460,7 @@ const Doctors: React.FC = () => {
               <button className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Contact Support
               </button>
-              <button className="btn-secondary text-white border-white hover:bg-white hover:text-primary-600">
+              <button className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Request Specialist
               </button>
             </div>
