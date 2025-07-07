@@ -50,7 +50,7 @@ const Blog: React.FC = () => {
       author: "Dr. Michael Rodriguez",
       date: "2024-01-12",
       readTime: "6 min read",
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop",
+      image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=250&fit=crop",
       featured: false,
       tags: ["Brain Health", "Sleep", "Neurology"]
     },
@@ -62,7 +62,7 @@ const Blog: React.FC = () => {
       author: "Dr. Emily Watson",
       date: "2024-01-10",
       readTime: "10 min read",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
       featured: false,
       tags: ["Preventive Care", "Check-ups", "Health Screening"]
     },
@@ -122,7 +122,7 @@ const Blog: React.FC = () => {
       author: "Dr. Michael Rodriguez",
       date: "2023-12-28",
       readTime: "6 min read",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
       featured: false,
       tags: ["Telemedicine", "Healthcare Innovation", "Digital Health"]
     }
