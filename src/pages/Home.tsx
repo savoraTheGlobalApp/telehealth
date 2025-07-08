@@ -265,7 +265,7 @@ const Home: React.FC = () => {
       </section> */}
 
       {/* Testimonials Section */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -306,7 +306,7 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-700 text-white">
