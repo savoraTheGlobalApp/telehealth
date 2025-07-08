@@ -43,24 +43,24 @@ const OnlineConsultation: React.FC = () => {
     {
       title: "Chat Consultation",
       description: "Text-based consultation for non-urgent medical questions",
-      duration: "15-30 minutes",
-      price: "$50-100",
+      // duration: "15-30 minutes",
+      // price: "$50-100",
       icon: <MessageCircle className="w-12 h-12" />,
       features: ["Written responses", "File sharing", "24/7 availability", "Follow-up support"]
     },
     {
       title: "Audio Call",
       description: "Voice consultation for detailed medical discussions",
-      duration: "30-45 minutes",
-      price: "$100-150",
+      // duration: "30-45 minutes",
+      // price: "$100-150",
       icon: <Phone className="w-12 h-12" />,
       features: ["Voice conversation", "Real-time interaction", "Recording available", "Detailed notes"]
     },
     {
       title: "Video Consultation",
       description: "Face-to-face consultation with visual examination",
-      duration: "45-60 minutes",
-      price: "$150-250",
+      // duration: "45-60 minutes",
+      // price: "$150-250",
       icon: <Video className="w-12 h-12" />,
       features: ["Visual examination", "Screen sharing", "HD quality", "Complete consultation"]
     }
@@ -223,14 +223,14 @@ const OnlineConsultation: React.FC = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{type.title}</h3>
                 <p className="text-gray-600 mb-6">{type.description}</p>
                 <div className="flex justify-center space-x-6 mb-6">
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <div className="text-sm text-gray-500">Duration</div>
                     <div className="font-semibold text-gray-900">{type.duration}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-sm text-gray-500">Price</div>
                     <div className="font-semibold text-gray-900">{type.price}</div>
-                  </div>
+                  </div> */}
                 </div>
                 <ul className="space-y-3 mb-8 text-left">
                   {type.features.map((feature, featureIndex) => (
