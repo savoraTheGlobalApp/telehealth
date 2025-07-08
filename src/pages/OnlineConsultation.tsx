@@ -240,9 +240,9 @@ const OnlineConsultation: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                <Link to="/doctors" className="btn-primary w-full">
+                {/* <Link to="/doctors" className="btn-primary w-full">
                   Book Now
-                </Link>
+                </Link> */}
               </motion.div>
             ))}
           </div>
