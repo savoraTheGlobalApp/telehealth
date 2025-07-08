@@ -518,7 +518,7 @@ const MedicalTourism: React.FC = () => {
               <Link to="/contact" className="btn-primary bg-white text-gray-900 hover:bg-gray-100">
                 Get Free Consultation
               </Link>
-              <Link to="/doctors" className="btn-secondary text-white border-white hover:bg-white hover:text-gray-900">
+              <Link to="/doctors" className="btn-primary bg-white text-gray-900 hover:bg-gray-100">
                 Browse Surgeons
               </Link>
             </div>
