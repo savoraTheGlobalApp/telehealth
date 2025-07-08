@@ -321,9 +321,9 @@ const Home: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold">
               Ready to Transform Your Healthcare Experience?
             </h2>
-            <p className="text-xl text-primary-100">
+            {/* <p className="text-xl text-primary-100">
               Join thousands of patients who have already discovered the benefits of global healthcare access.
-            </p>
+            </p> */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/online-consultation" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Start Consultation
