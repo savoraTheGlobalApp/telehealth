@@ -396,7 +396,7 @@ const OnlineConsultation: React.FC = () => {
               <Link to="/doctors" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Browse Specialists
               </Link>
-              <Link to="/contact" className="btn-secondary text-white border-white hover:bg-white hover:text-primary-600">
+              <Link to="/contact" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Contact Us
               </Link>
             </div>
