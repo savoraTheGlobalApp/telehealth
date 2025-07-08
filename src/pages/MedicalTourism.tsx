@@ -113,7 +113,7 @@ const MedicalTourism: React.FC = () => {
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Safe & Secure",
-      description: "Comprehensive travel and medical insurance coverage"
+      description: "Comprehensive travel and medical coverage"
     }
   ];
 
