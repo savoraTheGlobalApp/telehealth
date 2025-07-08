@@ -9,7 +9,7 @@ import {
   Shield, 
   Globe, 
   CheckCircle, 
-  Star,
+  // Star,
   User,
   Calendar,
   FileText
@@ -93,29 +93,29 @@ const OnlineConsultation: React.FC = () => {
     }
   ];
 
-  const specialists = [
-    {
-      name: "Dr. Sarah Chen",
-      specialty: "Cardiology",
-      experience: "15+ years",
-      rating: 4.9,
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face"
-    },
-    {
-      name: "Dr. Michael Rodriguez",
-      specialty: "Neurology",
-      experience: "20+ years",
-      rating: 4.8,
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&h=150&fit=crop&crop=face"
-    },
-    {
-      name: "Dr. Emily Watson",
-      specialty: "Oncology",
-      experience: "18+ years",
-      rating: 4.9,
-      image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=150&h=150&fit=crop&crop=face"
-    }
-  ];
+  // const specialists = [
+  //   {
+  //     name: "Dr. Sarah Chen",
+  //     specialty: "Cardiology",
+  //     experience: "15+ years",
+  //     rating: 4.9,
+  //     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face"
+  //   },
+  //   {
+  //     name: "Dr. Michael Rodriguez",
+  //     specialty: "Neurology",
+  //     experience: "20+ years",
+  //     rating: 4.8,
+  //     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&h=150&fit=crop&crop=face"
+  //   },
+  //   {
+  //     name: "Dr. Emily Watson",
+  //     specialty: "Oncology",
+  //     experience: "18+ years",
+  //     rating: 4.9,
+  //     image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=150&h=150&fit=crop&crop=face"
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen">
@@ -294,7 +294,7 @@ const OnlineConsultation: React.FC = () => {
       </section>
 
       {/* Featured Specialists */}
-      <section className="section-padding bg-gray-50">
+      {/* <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -349,7 +349,7 @@ const OnlineConsultation: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Important Notice */}
       <section className="section-padding bg-yellow-50 border-t border-yellow-200">
