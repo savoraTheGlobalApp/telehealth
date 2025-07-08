@@ -9,8 +9,8 @@ import {
   MessageCircle, 
   Video, 
   ArrowRight,
-  CheckCircle,
-  Star
+  CheckCircle
+  // Star
 } from 'lucide-react';
 
 const Home: React.FC = () => {
@@ -54,33 +54,33 @@ const Home: React.FC = () => {
     }
   ];
 
-  const stats = [
-    { number: "500+", label: "Expert Doctors" },
-    { number: "50+", label: "Countries" },
-    { number: "10,000+", label: "Patients Served" },
-    { number: "24/7", label: "Support" }
-  ];
+  // const stats = [
+  //   { number: "500+", label: "Expert Doctors" },
+  //   { number: "50+", label: "Countries" },
+  //   { number: "10,000+", label: "Patients Served" },
+  //   { number: "24/7", label: "Support" }
+  // ];
 
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      location: "New York, USA",
-      text: "Got a second opinion that saved me from unnecessary surgery. The doctor was incredibly thorough and caring.",
-      rating: 5
-    },
-    {
-      name: "Ahmed Al-Rashid",
-      location: "Dubai, UAE",
-      text: "The medical tourism service helped me find the perfect surgeon in India. Everything was perfectly coordinated.",
-      rating: 5
-    },
-    {
-      name: "Emma Thompson",
-      location: "London, UK",
-      text: "Instead of waiting 6 months for a specialist, I got an expert opinion in 48 hours. Highly recommended!",
-      rating: 5
-    }
-  ];
+  // const testimonials = [
+  //   {
+  //     name: "Sarah Johnson",
+  //     location: "New York, USA",
+  //     text: "Got a second opinion that saved me from unnecessary surgery. The doctor was incredibly thorough and caring.",
+  //     rating: 5
+  //   },
+  //   {
+  //     name: "Ahmed Al-Rashid",
+  //     location: "Dubai, UAE",
+  //     text: "The medical tourism service helped me find the perfect surgeon in India. Everything was perfectly coordinated.",
+  //     rating: 5
+  //   },
+  //   {
+  //     name: "Emma Thompson",
+  //     location: "London, UK",
+  //     text: "Instead of waiting 6 months for a specialist, I got an expert opinion in 48 hours. Highly recommended!",
+  //     rating: 5
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen">
