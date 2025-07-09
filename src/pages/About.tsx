@@ -41,54 +41,54 @@ const About: React.FC = () => {
     { number: "24/7", label: "Support", icon: <Clock className="w-6 h-6" /> }
   ];
 
-  const team = [
-    {
-      name: "Dr. Sarah Johnson",
-      role: "Chief Medical Officer",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&h=200&fit=crop&crop=face",
-      bio: "Board-certified cardiologist with 15+ years of experience in international healthcare delivery."
-    },
-    {
-      name: "Michael Chen",
-      role: "Chief Executive Officer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
-      bio: "Healthcare technology entrepreneur with a passion for making quality healthcare accessible globally."
-    },
-    {
-      name: "Dr. Emily Rodriguez",
-      role: "Head of Medical Affairs",
-      image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&h=200&fit=crop&crop=face",
-      bio: "Experienced medical administrator specializing in international healthcare coordination."
-    }
-  ];
+  // const team = [
+  //   {
+  //     name: "Dr. Sarah Johnson",
+  //     role: "Chief Medical Officer",
+  //     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&h=200&fit=crop&crop=face",
+  //     bio: "Board-certified cardiologist with 15+ years of experience in international healthcare delivery."
+  //   },
+  //   {
+  //     name: "Michael Chen",
+  //     role: "Chief Executive Officer",
+  //     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+  //     bio: "Healthcare technology entrepreneur with a passion for making quality healthcare accessible globally."
+  //   },
+  //   {
+  //     name: "Dr. Emily Rodriguez",
+  //     role: "Head of Medical Affairs",
+  //     image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&h=200&fit=crop&crop=face",
+  //     bio: "Experienced medical administrator specializing in international healthcare coordination."
+  //   }
+  // ];
 
-  const milestones = [
-    {
-      year: "2020",
-      title: "Company Founded",
-      description: "Qurelink AI was established with a mission to bridge healthcare gaps globally"
-    },
-    {
-      year: "2021",
-      title: "First 1000 Patients",
-      description: "Reached our first milestone of serving 1000 patients across 20 countries"
-    },
-    {
-      year: "2022",
-      title: "HIPAA & GDPR Compliance",
-      description: "Achieved full compliance with international healthcare data protection standards"
-    },
-    {
-      year: "2023",
-      title: "500+ Doctor Network",
-      description: "Expanded our network to include 500+ verified healthcare professionals"
-    },
-    {
-      year: "2024",
-      title: "Global Expansion",
-      description: "Launched services in 50+ countries with comprehensive medical tourism support"
-    }
-  ];
+  // const milestones = [
+  //   {
+  //     year: "2020",
+  //     title: "Company Founded",
+  //     description: "Qurelink AI was established with a mission to bridge healthcare gaps globally"
+  //   },
+  //   {
+  //     year: "2021",
+  //     title: "First 1000 Patients",
+  //     description: "Reached our first milestone of serving 1000 patients across 20 countries"
+  //   },
+  //   {
+  //     year: "2022",
+  //     title: "HIPAA & GDPR Compliance",
+  //     description: "Achieved full compliance with international healthcare data protection standards"
+  //   },
+  //   {
+  //     year: "2023",
+  //     title: "500+ Doctor Network",
+  //     description: "Expanded our network to include 500+ verified healthcare professionals"
+  //   },
+  //   {
+  //     year: "2024",
+  //     title: "Global Expansion",
+  //     description: "Launched services in 50+ countries with comprehensive medical tourism support"
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen">
