@@ -38,7 +38,7 @@ const Blog: React.FC = () => {
       author: "Dr. Sarah Chen",
       date: "2024-01-15",
       readTime: "8 min read",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
+      image: "/images/blogs/heart.jpg",
       featured: true,
       tags: ["Heart Health", "Prevention", "Cardiology"]
     },
@@ -210,7 +210,7 @@ const Blog: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="text-center mb-8"
+              className="text-center mb-6"
             >
               <h2 className="text-2xl font-bold text-gray-900">Featured Article</h2>
             </motion.div>
@@ -222,19 +222,19 @@ const Blog: React.FC = () => {
               viewport={{ once: true }}
               className="card overflow-hidden"
             >
-              <div className="grid lg:grid-cols-2 gap-8">
+              <div className="grid lg:grid-cols-2 gap-6">
                 <div className="relative">
                   <img
                     src={featuredPost.image}
                     alt={featuredPost.title}
-                    className="w-full h-64 lg:h-full object-cover"
+                    className="w-full h-48 lg:h-64 object-cover"
                   />
                   <div className="absolute top-4 left-4 bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                     Featured
                   </div>
                 </div>
-                <div className="p-8 flex flex-col justify-center">
-                  <div className="flex items-center space-x-4 text-sm text-gray-500 mb-4">
+                <div className="p-6 flex flex-col justify-center">
+                  <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
                     <span className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full">
                       {categories.find(cat => cat.id === featuredPost.category)?.name}
                     </span>
@@ -247,8 +247,8 @@ const Blog: React.FC = () => {
                       <span>{featuredPost.readTime}</span>
                     </div>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{featuredPost.title}</h3>
-                  <p className="text-gray-600 mb-6">{featuredPost.excerpt}</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">{featuredPost.title}</h3>
+                  <p className="text-gray-600 mb-4 line-clamp-4">{featuredPost.excerpt}</p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <User className="w-4 h-4 text-gray-400" />
