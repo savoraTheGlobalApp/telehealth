@@ -27,22 +27,49 @@ const MedicalTourism: React.FC = () => {
       rating: 4.8
     },
     {
-      country: "Thailand",
-      city: "Bangkok",
+      country: "India",
+      city: "Delhi",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
-      specialties: ["Plastic Surgery", "Fertility", "Dental", "Wellness"],
-      costSavings: "50-70%",
-      hospitals: "30+ International",
+      specialties: ["Neurology", "Transplant", "Cancer Care", "Cardiology"],
+      costSavings: "55-75%",
+      hospitals: "40+ International",
       rating: 4.7
     },
     {
-      country: "Turkey",
-      city: "Istanbul",
+      country: "India",
+      city: "Bangalore",
       image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=400&h=300&fit=crop",
-      specialties: ["Hair Transplant", "Dental", "Eye Surgery", "Cardiology"],
-      costSavings: "40-60%",
-      hospitals: "25+ Modern",
+      specialties: ["Robotic Surgery", "Fertility", "Eye Surgery", "Orthopedics"],
+      costSavings: "50-70%",
+      hospitals: "35+ Modern",
       rating: 4.6
+    },
+    {
+      country: "India",
+      city: "Chennai",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
+      specialties: ["Cardiac Care", "Dental", "Plastic Surgery", "Ayurveda"],
+      costSavings: "45-65%",
+      hospitals: "30+ Accredited",
+      rating: 4.5
+    },
+    {
+      country: "India",
+      city: "Hyderabad",
+      image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=300&fit=crop",
+      specialties: ["Oncology", "Transplant", "Neurology", "Dental"],
+      costSavings: "50-70%",
+      hospitals: "25+ JCI",
+      rating: 4.4
+    },
+    {
+      country: "India",
+      city: "Kolkata",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=300&fit=crop",
+      specialties: ["Cardiology", "Orthopedics", "Cancer Care", "Ayurveda"],
+      costSavings: "40-60%",
+      hospitals: "20+ Modern",
+      rating: 4.3
     }
   ];
 

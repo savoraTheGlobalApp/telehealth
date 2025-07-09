@@ -1,4 +1,4 @@
-# Sapiens Health - Cross-Border Telehealth Platform
+# Qurelink AI - Cross-Border Telehealth Platform
 
 A modern, comprehensive telehealth platform that connects patients with world-class healthcare professionals across borders. The platform provides cross-border online consultations and medical tourism services.
 
@@ -243,4 +243,4 @@ For support and inquiries:
 
 ---
 
-**Disclaimer**: Sapiens Health provides consultation services and medical opinions only. We do not provide prescriptions or replace in-person medical care. For emergencies, please contact your local emergency services immediately. 
+**Disclaimer**: Qurelink AI provides consultation services and medical opinions only. We do not provide prescriptions or replace in-person medical care. For emergencies, please contact your local emergency service 

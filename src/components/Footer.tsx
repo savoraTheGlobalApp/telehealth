@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">S</span>
+                <span className="text-white font-bold text-sm">Q</span>
               </div>
-              <span className="text-xl font-bold">Sapiens Health</span>
+              <span className="text-xl font-bold">Qurelink AI</span>
             </div>
             <p className="text-gray-300 text-sm">
               Connecting patients with world-class healthcare professionals across borders. 
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              <p>&copy; 2025 Sapiens Health. All rights reserved.</p>
+              <p>&copy; 2025 Qurelink AI. All rights reserved.</p>
             </div>
             <div className="flex flex-wrap items-center space-x-6 text-xs text-gray-400">
               <span className="flex items-center space-x-1">
@@ -132,7 +132,7 @@ const Footer: React.FC = () => {
         {/* Disclaimer */}
         <div className="mt-6 p-4 bg-gray-800 rounded-lg">
           <p className="text-xs text-gray-400 text-center">
-            <strong>Disclaimer:</strong> Sapiens Health provides consultation services and medical opinions only. 
+            <strong>Disclaimer:</strong> Qurelink AI provides consultation services and medical opinions only. 
             We do not provide prescriptions or replace in-person medical care. For emergencies, 
             please contact your local emergency services immediately. Our services comply with 
             international healthcare regulations including HIPAA and GDPR.

@@ -66,7 +66,7 @@ const About: React.FC = () => {
     {
       year: "2020",
       title: "Company Founded",
-      description: "Sapiens Health was established with a mission to bridge healthcare gaps globally"
+      description: "Qurelink AI was established with a mission to bridge healthcare gaps globally"
     },
     {
       year: "2021",
@@ -104,7 +104,7 @@ const About: React.FC = () => {
               className="space-y-6"
             >
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                About Sapiens Health
+                About Qurelink AI
               </h1>
               <p className="text-xl text-primary-100 max-w-3xl mx-auto">
                 We're revolutionizing healthcare access by connecting patients with world-class specialists 

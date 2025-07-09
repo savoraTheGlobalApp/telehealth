@@ -165,11 +165,10 @@ const Home: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Sapiens Health?
+              Why Choose Qurelink AI?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're revolutionizing healthcare access by connecting patients with world-class specialists 
-              across borders, ensuring you get the care you need when you need it.
+              Real stories from patients who have transformed their healthcare journey with Qurelink AI.
             </p>
           </motion.div>
 
@@ -278,7 +277,7 @@ const Home: React.FC = () => {
               What Our Patients Say
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Real stories from patients who have transformed their healthcare journey with Sapiens Health.
+              Real stories from patients who have transformed their healthcare journey with Qurelink AI.
             </p>
           </motion.div>
 
