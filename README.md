@@ -222,7 +222,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and inquiries:
-- **Email**: contact@sapienshealth.com
+- **Email**: savora5billion@gmail.com
 - **Phone**: +1 (555) 123-4567
 - **Live Chat**: Available on the website
 

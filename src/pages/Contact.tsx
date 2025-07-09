@@ -58,25 +58,25 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Support",
-      details: ["contact@sapienshealth.com", "support@sapienshealth.com"],
+      details: ["savora5billion@gmail.com"],
       description: "Get in touch via email for general inquiries and support"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone Support",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["+9197176 11679"],
       description: "Call us for immediate assistance and urgent matters"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Global Headquarters",
-      details: ["123 Healthcare Plaza", "Medical District", "New York, NY 10001"],
+      details: ["Delhi, India"],
       description: "Visit our main office for in-person consultations"
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Support Hours",
-      details: ["24/7 Emergency Support", "Mon-Fri: 9AM-6PM EST", "Weekends: 10AM-4PM EST"],
+      details: ["24/7 Support"],
       description: "We're here when you need us, with 24/7 emergency support"
     }
   ];
