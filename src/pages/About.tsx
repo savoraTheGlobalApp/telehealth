@@ -228,7 +228,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Team Section */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -269,10 +269,10 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Milestones Section */}
-      <section className="section-padding bg-gray-50">
+      {/* <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -290,7 +290,6 @@ const About: React.FC = () => {
           </motion.div>
 
           <div className="relative">
-            {/* Timeline Line */}
             <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-primary-200"></div>
             
             <div className="space-y-12">
@@ -305,10 +304,8 @@ const About: React.FC = () => {
                     index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
                   }`}
                 >
-                  {/* Timeline Dot */}
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary-600 rounded-full border-4 border-white shadow-lg"></div>
                   
-                  {/* Content */}
                   <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
                     <div className="bg-white rounded-lg p-6 shadow-lg">
                       <div className="text-2xl font-bold text-primary-600 mb-2">{milestone.year}</div>
@@ -321,7 +318,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Compliance Section */}
       <section className="section-padding bg-white">
@@ -414,7 +411,7 @@ const About: React.FC = () => {
               <button className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Get Started
               </button>
-              <button className="btn-secondary text-white border-white hover:bg-white hover:text-primary-600">
+              <button className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
                 Contact Us
               </button>
             </div>
