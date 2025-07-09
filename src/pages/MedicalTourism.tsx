@@ -20,7 +20,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Mumbai",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      image: "/images/destinations/mumbai.jpg",
       specialties: ["Cardiac Surgery", "Orthopedics", "Oncology", "Dental"],
       costSavings: "60-80%",
       hospitals: "50+ JCI Accredited",
@@ -29,7 +29,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Delhi",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      image: "/images/destinations/delhi.jpg",
       specialties: ["Neurology", "Transplant", "Cancer Care", "Cardiology"],
       costSavings: "55-75%",
       hospitals: "40+ International",
@@ -38,7 +38,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Bangalore",
-      image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=400&h=300&fit=crop",
+      image: "/images/destinations/bangalore.jpg",
       specialties: ["Robotic Surgery", "Fertility", "Eye Surgery", "Orthopedics"],
       costSavings: "50-70%",
       hospitals: "35+ Modern",
@@ -47,7 +47,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Chennai",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
+      image: "/images/destinations/chennai.jpg",
       specialties: ["Cardiac Care", "Dental", "Plastic Surgery", "Ayurveda"],
       costSavings: "45-65%",
       hospitals: "30+ Accredited",
@@ -56,7 +56,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Hyderabad",
-      image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=300&fit=crop",
+      image: "/images/destinations/hyderabad.jpg",
       specialties: ["Oncology", "Transplant", "Neurology", "Dental"],
       costSavings: "50-70%",
       hospitals: "25+ JCI",
@@ -65,7 +65,7 @@ const MedicalTourism: React.FC = () => {
     {
       country: "India",
       city: "Kolkata",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=300&fit=crop",
+      image: "/images/destinations/kolkata.jpg",
       specialties: ["Cardiology", "Orthopedics", "Cancer Care", "Ayurveda"],
       costSavings: "40-60%",
       hospitals: "20+ Modern",
