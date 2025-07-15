@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   Mail, 
@@ -6,7 +6,6 @@ import {
   MapPin, 
   Clock, 
   MessageCircle, 
-  Send,
   CheckCircle,
   AlertCircle,
   // Add the following import if you have lucide-react v0.263.0+:
@@ -15,47 +14,47 @@ import {
 } from 'lucide-react';
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-    service: 'general'
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   subject: '',
+  //   message: '',
+  //   service: 'general'
+  // });
+  // const [setIsSubmitting] = useState(false);
+  // const [setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+  // const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  //   setFormData({
+  //     ...formData,
+  //     [e.target.name]: e.target.value
+  //   });
+  // };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        service: 'general'
-      });
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     setIsSubmitting(false);
+  //     setSubmitStatus('success');
+  //     setFormData({
+  //       name: '',
+  //       email: '',
+  //       phone: '',
+  //       subject: '',
+  //       message: '',
+  //       service: 'general'
+  //     });
       
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 5000);
-    }, 2000);
-  };
+  //     // Reset success message after 5 seconds
+  //     setTimeout(() => {
+  //       setSubmitStatus('idle');
+  //     }, 5000);
+  //   }, 2000);
+  // };
 
   const contactInfo = [
     {
@@ -196,7 +195,7 @@ const Contact: React.FC = () => {
       <section className="section-padding">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
+            {/* Google Form Section - Replacing the old contact form */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -204,145 +203,65 @@ const Contact: React.FC = () => {
               viewport={{ once: true }}
               className="card p-8"
             >
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Submit Your Query</h2>
               
-              {submitStatus === 'success' && (
-                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-3">
-                  <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span className="text-green-700">Thank you! Your message has been sent successfully.</span>
-                </div>
-              )}
-
-              {submitStatus === 'error' && (
-                <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center space-x-3">
-                  <AlertCircle className="w-5 h-5 text-red-500" />
-                  <span className="text-red-700">Sorry, there was an error sending your message. Please try again.</span>
-                </div>
-              )}
-
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Enter your full name"
-                    />
+              <div className="space-y-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
                   </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Enter your email"
-                    />
-                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    Query Form
+                  </h3>
+                  <p className="text-gray-600 mb-6">
+                    Have questions about our medical tourism services? Fill out our comprehensive form 
+                    to get personalized assistance from our team.
+                  </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder="Enter your phone number"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                      Service Interest
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      value={formData.service}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    >
-                      <option value="general">General Inquiry</option>
-                      <option value="consultation">Online Consultation</option>
-                      <option value="tourism">Medical Tourism</option>
-                      <option value="doctors">Find Doctors</option>
-                      <option value="support">Technical Support</option>
-                      <option value="partnership">Partnership</option>
-                    </select>
-                  </div>
+                <div className="bg-gray-50 rounded-lg p-6 space-y-4">
+                  <h4 className="font-semibold text-gray-900">What you can expect:</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span>Quick response within 24 hours</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span>Personalized medical tourism guidance</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span>Detailed information about procedures and costs</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span>Direct contact with our medical tourism specialists</span>
+                    </li>
+                  </ul>
                 </div>
 
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                    Subject *
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    placeholder="Enter subject"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    required
-                    rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    placeholder="Tell us how we can help you..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc6FdqRe37KObeIA4stA4kBm_r75kuEoI8l-3amZb_mj7m9lQ/viewform?usp=sharing&ouid=112725874533396808077"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-primary w-full flex items-center justify-center space-x-2"
                 >
-                  {isSubmitting ? (
-                    <>
-                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                      <span>Sending...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Send className="w-5 h-5" />
-                      <span>Send Message</span>
-                    </>
-                  )}
-                </button>
-              </form>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  <span>Fill the form with your queries</span>
+                </a>
+
+                <p className="text-xs text-gray-500 text-center">
+                  This form will open in a new tab. Your information is secure and will only be used to assist with your medical tourism inquiry.
+                </p>
+              </div>
             </motion.div>
 
-            {/* Contact Information */}
+            {/* Contact Information - Keep this section as is */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
